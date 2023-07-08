@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { useForm } from "react-hook-form";
 import "./index.css";
+import {MaltLogo} from 'assts/malt-svgrepo-com.svg';
 import "../node_modules/@picocss/pico/css/pico.min.css";
 
 export function App() {
@@ -79,7 +80,7 @@ export function App() {
     <div className="p-4">
       <div className="mt-4 mb-8 flex justify-center items-center gap-3 bg-clip-text text-transparent">
         <img
-          src="src/assets/malt-svgrepo-com.svg"
+          src={MaltLogo}
           alt="Malt Logo"
           height={60}
           width={60}
