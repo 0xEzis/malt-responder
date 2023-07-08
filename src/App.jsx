@@ -77,7 +77,7 @@ export function App() {
   };
   
   return (
-    <div className="p-4">
+    <div className="p-4 ">
       <div className="mt-4 mb-8 flex justify-center items-center gap-3 bg-clip-text text-transparent">
         <img
           src={MaltLogo}
