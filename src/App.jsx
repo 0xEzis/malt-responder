@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { useForm } from "react-hook-form";
 import "./index.css";
-import {MaltLogo} from 'assts/malt-svgrepo-com.svg';
+import { ReactComponent as MaltLogo } from "../public/malt-svgrepo-com.svg";
 import "../node_modules/@picocss/pico/css/pico.min.css";
 
 export function App() {
